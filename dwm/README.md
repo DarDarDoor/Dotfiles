@@ -5,4 +5,4 @@ How to use:
 2. Run `patcher.sh`.
 3. Build with `sudo make clean install` 
 
-This changes the modkey to super, and the default terminal emulator to alacritty. Shiftview keys are z+x.
+This changes the modkey to super, the default terminal emulator to alacritty, and also adds gaps. Shiftview keys are z+x.
