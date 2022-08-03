@@ -1,3 +1,4 @@
+This assumes an unmodified dwm src tree.
 How to use:
 
 1. `cd` into the dwm src directory and download the files in this folder.
