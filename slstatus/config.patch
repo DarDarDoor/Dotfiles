@@ -1,0 +1,12 @@
+--- config.def.h	2022-08-03 14:37:23.078727107 +0100
++++ newconfig.def.h	2022-08-03 14:35:29.818726701 +0100
+@@ -65,5 +65,8 @@
+  */
+ static const struct arg args[] = {
+ 	/* function format          argument */
+-	{ datetime, "%s",           "%F %T" },
++	{ netspeed_rx,	"[%sB/s]   ",	"wlp4s0" },
++	{ cpu_perc,	"[CPU %s%%]   ",		NULL	 },
++	{ ram_perc,	"[RAM %s%%]   ",		NULL	 },
++	{ datetime,	"%s",		"%a %b %d %R:%S" },
+ };
