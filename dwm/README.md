@@ -1,4 +1,5 @@
 How to use:
 
-1. Run `patcher.sh`.
-2. Build with `sudo make clean install` 
+1. `cd` into the dwm src directory and download the files in this folder.
+2. Run `patcher.sh`.
+3. Build with `sudo make clean install` 
